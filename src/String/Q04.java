@@ -36,5 +36,5 @@ public class Q04 {
 
         return answer;
     }
-}1
+}
 
