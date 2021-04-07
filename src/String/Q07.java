@@ -13,8 +13,8 @@ public class Q07 {
     }
 
     private String solution(String str) {
-
-        String answer = "YES";
+        // 1
+      /*  String answer = "YES";
         str = str.toUpperCase();
         int len = str.length();
 
@@ -22,8 +22,14 @@ public class Q07 {
             if (str.charAt(i) != str.charAt(len - i - 1)) {
                 return "NO";
             }
-        }
+        }*/
 
+        // 2
+        String answer = "NO";
+        String tmp = new StringBuilder(str).reverse().toString();
+        if (str.equalsIgnoreCase(tmp)) {
+            answer = "YES";
+        }
 
         return answer;
     }
