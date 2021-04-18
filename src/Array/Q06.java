@@ -39,7 +39,6 @@ public class Q06 {
                 answer.add(res);
             }
         }
-
         return answer;
     }
 
